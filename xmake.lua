@@ -1,6 +1,6 @@
 add_rules("mode.debug", "mode.release")
 
-add_repositories("liteldev-repo https://github.com/LiteLDev/xmake-repo.git")
+add_repositories("liteldev-repo https://github.com/Yejdhi/xmake-repo.git")
 if is_plat("windows") then
     add_requires("detours v4.0.1-xmake.1")
 elseif is_plat("android") then   
